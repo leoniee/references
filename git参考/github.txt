@@ -1,0 +1,68 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2012-12-01T00:39:47+08:00
+
+====== github ======
+Created 星期六 01 十二月 2012
+
+
+[[./git使用指南.pdf]]
+
+* **git的设置方法**
+	* 设置默认用户名
+	$ git config --global user.name "Your Name Here" 
+	
+	* 设置默认电子邮件
+	$ git config --global user.email "your_email@youremail.com"
+	
+	* 设置密码缓冲
+	$ git config --global credential.helper cache
+	
+	* 设置密码缓冲的时间
+	$ git config --global credential.helper 'cache --timeout=3600' （单位是秒）
+	
+== ============ ==
+
+* **git的使用方法**
+	* 进入需要同步的目录，初始化git
+	$ git init
+	
+	* 向本地库添加文件
+	$ git add 文件名 __（如果添加所有文件：git add .）__
+
+	* 向本地库提交更改信息 ===
+	$ git commit -m 'first commit'
+
+	* **下面开始向github远程服务器上传文件**
+		* 首先，为github上的repo添加别名，本例中为“Hello-World.git”的repo添加了别名“origin”
+		$ git remote add origin https://github.com/username/Hello-World.git
+		* 将本地库中修改的文件提交到github的别名为“origin”的repo中
+		$ git push origin master
+		
+== ============ ==
+
+* **从github同步文件到本地目录**
+ $ git pull 别名 master （别名即github上某个repo的别名）
+
+== ============ ==
+
+
+• **删除github网站repo中的所有文件**
+pop@pop-laptop:~/桌面/未命名文件夹$ **git rm *** __（直接用git rm 命令就可以删除文件中的文件）__
+rm '1'
+rm '1~'
+pop@pop-laptop:~/桌面/未命名文件夹$ **git commit -m "deleted"**
+[master c3149aa] deleted
+ 1 个文件被修改，删除 3 行(-)
+ delete mode 100644 1
+ delete mode 100644 1~
+pop@pop-laptop:~/桌面/未命名文件夹$ **git push temporary master** 
+__（其中，temporary是temporary.git的别名，可以用“git remote rm temporary”删除该别名。）__
+WARNING: gnome-keyring:: couldn't connect to: /home/pop/.cache/keyring-uVSgNz/pkcs11: No such file or directory
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (1/1), done.
+Writing objects: 100% (2/2), 191 bytes, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/leoniee/temporary.git
+   457d16c..c3149aa  master -> master
