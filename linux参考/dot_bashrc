@@ -1,0 +1,9 @@
+export PS1='\[\e[32;1m\]\u@\h:\[\e[35;1m\]\w\[\e[0m\]> '
+
+#下面这些是参考
+#export    PS1=' \u@\h:\w\$ '
+#export PS1="\e[32;40m\w>; " 
+#export PS1="\e[32;40m\w>; \e[0m" 
+#export PS1="\[\e[32;1m\]\w> \[\e[0m\]" 
+
+#确保您的 ~/.bash_profile 文件中有以下这样一行：source ~/.bashrc 以便系统启动时搜索 (source) 您的 ~/.bashrc
