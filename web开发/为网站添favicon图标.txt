@@ -1,0 +1,2 @@
+在html的<head> </head>之间添加一句：
+<link rel="icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
