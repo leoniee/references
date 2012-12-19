@@ -1,0 +1,49 @@
+以关春红名义要的菌
+
+hank you for submitting the following information:
+
+Contact_FullName: Chun-Hong Guan
+Contact_Title: Ph.D.
+Laboratory_Head: Chun-Hong Guan
+Contact_Organization: Laboratory of Molecular Microbiology ,Shanghai Institute of Plant Physiology and Ecology , Chinese Academy of Sciences
+Contact_StreetAddress: 300# Fenglin Road
+Contact_Address2: Enter a second line of the street address, if any.
+Contact_City: Shanghai
+Contact_State: Shanghai
+Contact_ZipCode: 200032
+Contact_Country: P.R.China
+Contact_WorkPhone: 86-21-57924177
+Contact_FAX: Enter your fax number.
+Contact_Email: chguan@sibs.ac.cn
+Contact_URL:
+FedEx_Acct: Non-profit users may enter a FedEx Acct Number, if desired
+Billing_reg: Enter internal billing information, if your organization requires it
+Ordering_OrderDesc0: 1A288
+Ordering_OrderDesc1: 1S76
+Ordering_OrderDesc2: 1A4
+Ordering_OrderDesc3: 1A55
+Ordering_OrderDesc4: 1E59
+Ordering_OrderDesc5: ECE59
+Ordering_OrderDesc6: ECE143
+Ordering_OrderDesc7: ECE144
+Ordering_OrderDesc8: Enter a strain name.
+Ordering_OrderDesc9: Enter a strain name.
+Ordering_OrderDesc10: Enter a strain name.
+Ordering_OrderDesc11: Enter a strain name.
+Ordering_OrderDesc12: Enter a strain name.
+Ordering_OrderDesc13: Enter a strain name.
+Ordering_OrderDesc14: Enter a strain name.
+Ordering_OrderDesc15: Enter a strain name.
+Ordering_OrderDesc16: Enter a strain name.
+Ordering_OrderDesc17: Enter a strain name.
+Ordering_OrderDesc18: Enter a strain name.
+Ordering_OrderDesc19: Enter a strain name.
+Ordering_PONumber: Enter your purchase order number, if applicable.
+Ordering_StreetAddress: Enter the first line of your billing address, if applicable.
+Ordering_Address2: Enter the second line of your billing address, if applicable.
+Ordering_City: Enter the city of your billing address, if applicable.
+Ordering_State: Enter the state or province of your billing address, if applicable.
+Ordering_ZipCode: Enter the po
+Ordering_Country: Enter the country name for your billing address, if applicable.
+Submit: Submit Form
+comments
